@@ -1,0 +1,31 @@
+input::placeholder{
+    color: #808080;
+    font-size: 14px;
+}
+
+.m_bg_pinkish{
+    background:  #F84464 !important;
+}
+.m_sign_in:hover{
+    background:  #f84464 !important;
+   border: 1px solid #f84464;
+}
+
+.m_bottom ul {
+    list-style: none;
+ margin: 0px;
+ padding: 0;
+}
+
+.m_bottom ul a{
+    color: black;
+    text-decoration: none;
+}
+.m_bottom ul a.active{
+    color: #F84464 !important;
+}
+.m_bottom ul span{
+    font-weight: 300;
+    font-size: 12px;
+    }
+    
