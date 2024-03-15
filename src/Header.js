@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 export const Header = () => {
   return (
     <header>
-    <div className='m_top py-3 align-items-center bg-primary'>
+    <div className='m_top py-3 align-items-center '>
         <div className="container py-1">
             <div className="row w-100 mx-auto justify-content-between align-items-center">
 <div className='col-12 col-md-7'>
@@ -28,7 +28,7 @@ export const Header = () => {
 </div>
 </div>
 
-<div className='col-12 col-md-3 align-items-center bg-success'>
+<div className='col-12 col-md-3 align-items-center '>
 <div className='row text-end  align-items-center justify-content-end justify-content-between '>
 <div className='col-12 col-md-7 f-flex align-items-center  justify-content-between'>
     <div className='d-flex gap-2'>
