@@ -8,12 +8,13 @@ import { Events } from './pages/Events';
 import { Plays } from './pages/Plays';
 import { Sports } from './pages/Sports';
 import { Activities } from './pages/Activities';
+import { Footer } from './Footer/Footer';
 
 
 function App() {
   return (
-    <>
-    <Header />
+   <div className='bg-light'>
+  <Header />
     <Routes>
 <Route path='/' element={<Movies/>}></Route>
 <Route path='/stream' element={<Stream/>}></Route>
@@ -21,9 +22,10 @@ function App() {
 <Route path="/plays" element={<Plays/>}></Route>
 <Route path='/sports' element={<Sports/>}></Route>
 <Route path='/activities' element={<Activities/>}></Route>
-
     </Routes>
-    </>
+<Footer/>
+
+   </div>
   );
 }
 
