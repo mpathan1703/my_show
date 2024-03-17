@@ -1,0 +1,21 @@
+.m_text_color{
+    color: #9AA5A5;
+}
+.m_text_color2{
+    color:#747878 ;
+}
+.m_service_box{
+    opacity: 0.5;
+}
+.m_service_box{
+    cursor: pointer;
+}
+.m_service_box:hover{
+    opacity: 2;
+}
+.m_border{
+    border: 1px white;
+    width: 96%;
+    margin: auto;
+    padding: 10px 0px;
+}

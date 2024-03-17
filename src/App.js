@@ -13,19 +13,19 @@ import { Footer } from './Footer/Footer';
 
 function App() {
   return (
-   <div className='bg-light'>
-  <Header />
-    <Routes>
-<Route path='/' element={<Movies/>}></Route>
-<Route path='/stream' element={<Stream/>}></Route>
-<Route path='/events' element={<Events/>}></Route>
-<Route path="/plays" element={<Plays/>}></Route>
-<Route path='/sports' element={<Sports/>}></Route>
-<Route path='/activities' element={<Activities/>}></Route>
-    </Routes>
-<Footer/>
+    <div className='bg-light'>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Movies />}></Route>
+        <Route path='/stream' element={<Stream />}></Route>
+        <Route path='/events' element={<Events />}></Route>
+        <Route path="/plays" element={<Plays />}></Route>
+        <Route path='/sports' element={<Sports />}></Route>
+        <Route path='/activities' element={<Activities />}></Route>
+      </Routes>
+      <Footer />
 
-   </div>
+    </div>
   );
 }
 
