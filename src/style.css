@@ -22,7 +22,7 @@ input::placeholder{
     text-decoration: none;
 }
 .m_bottom ul a.active{
-    color: #F84464 !important;
+    color: #F84464 !important; 
 }
 .m_bottom ul span{
     font-weight: 300;
@@ -74,4 +74,13 @@ font-size: 7px;
 }
 .m_background{
     background-color: #333338;
+}
+.m_border{
+    border-top: 1px solid #868686;
+    width: 96%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.m_bottom_logo{
+    top:-80% !important
 }

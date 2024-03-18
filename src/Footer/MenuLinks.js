@@ -70,7 +70,7 @@ export const MenuLinks = () => {
       
   {value.discription.map((ele,index)=>{
     return(
-      <span key={index} className={`${index!==0 ? "border-start border-secondary px-1" : "pe-2"}`}>{ele}</span>
+      <span key={index} className= {`${ index!==0 ? " m_menulinks border-start border-secondary px-1" : "pe-2"}`}>{ele}</span>
     )
   })}
   

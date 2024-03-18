@@ -8,11 +8,11 @@ import { NavLink } from 'react-router-dom';
 export const Header = () => {
   return (
     <header>
-    <div className='m_top py-3 align-items-center '>
+    <div className='m_top py-3  d-flex align-items-center '>
         <div className="container py-1">
-            <div className="row w-100 mx-auto justify-content-between align-items-center">
+            <div className="row w-100 mx-auto  d-flex justify-content-between align-items-center">
 <div className='col-12 col-md-7'>
-<div className='row'>
+<div className='row d-flex align-items-center'>
     <div className='col-12 col-md-3'>
         <div className='logo'>
         <img width={150} style={{ mixBlendMode: "multiply" }} src={"bookmyshow.webp"} alt="" />
@@ -20,7 +20,7 @@ export const Header = () => {
     </div>
 
     <div className='col-12 col-md-9'>
-        <div className='border d-flex  rounded-2 p-1 px-2'>
+        <div className='border d-flex align-items-center  rounded-2 p-1 px-2'>
         <CiSearch  size={20} className='mt-1'/>
         <input type="text" placeholder='Search for Movies, Plays, sport and activities' className='border-0'  style={{flex:1, outline:"none"}} />
         </div>
@@ -28,13 +28,13 @@ export const Header = () => {
 </div>
 </div>
 
-<div className='col-12 col-md-3 align-items-center '>
-<div className='row text-end  align-items-center justify-content-end justify-content-between '>
-<div className='col-12 col-md-7 f-flex align-items-center  justify-content-between'>
-    <div className='d-flex gap-2'>
+<div className='col-12 col-md-3' style={{cursor:"pointer"}}>
+<div className='row text-end align-items-center justify-content-end'>
+<div className='col-12 col-md-10 f-flex align-items-center  justify-content-end gap-4'>
+    <div className='d-flex  gap-2'>
         <span>Bhokardan</span><MdKeyboardArrowDown color='#6B7188' className='mt-1'/>
     </div>
-    <button className='btn btn-sm m_bg_pinkish text-white m_sign_in  '>Sing In</button>
+    <button className='btn btn-sm m_bg_pinkish text-white m_sign_in px-3 border-0'>Sing In</button>
 </div>
 
 <div className='col-12 col-md-2'>

@@ -3,6 +3,14 @@
 }
 .m_text_color2{
     color:#747878 ;
+    
+}
+
+ .m_text_color:hover{
+    color: white;
+} 
+.m_menulinks:hover{
+    color: white;
 }
 .m_service_box{
     opacity: 0.5;
@@ -13,9 +21,28 @@
 .m_service_box:hover{
     opacity: 2;
 }
-.m_border{
-    border: 1px white;
-    width: 96%;
+/* .m_icon_cont{
     margin: auto;
-    padding: 10px 0px;
+} */
+.m_icons{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background:#868686;
+    color: 333338;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m_icons:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.m_copyright{
+margin: auto;
+padding: 15px 0px;
+}
+.m_copyright{
+    margin: 0;
 }
