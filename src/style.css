@@ -84,3 +84,15 @@ font-size: 7px;
 .m_bottom_logo{
     top:-80% !important
 }
+.m_text_pinkish{
+    color:  #F84464;
+}
+.m_cursor_pointer{
+    cursor: pointer;
+}
+.m_user_select_none{
+    user-select: none;
+}
+.m_border_pinkish{
+    border: px solid #F84464;
+}

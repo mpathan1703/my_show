@@ -1,0 +1,10 @@
+.m_movie_poster{
+    height: 300px;
+    padding: 5px;
+}
+.m_movie_poster img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}

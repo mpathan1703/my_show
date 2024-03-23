@@ -1,0 +1,19 @@
+.control-arrow{
+    background: #959288 !important;
+    height: 35px;
+    width: 35px;
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.control-prev{
+    margin-left: 9px !important;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.control-next{
+    margin-left: 9px !important;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
