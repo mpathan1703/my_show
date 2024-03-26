@@ -8,78 +8,78 @@ import { Button } from '../components/Buttons/Button';
 import { HeaddingBanner } from '../components/Banner/HeaddingBanner';
 import { MyCard } from './Card/MyCard';
 // Moviesdata
-const MoviesInfo=[
+const MoviesInfo = [
   {
-    name:"Shaitaan",
-    movieCertificate:"UA",
-    language:"Hindi",
-    path:"Movie/movie1.avif"
+    name: "Shaitaan",
+    movieCertificate: "UA",
+    language: "Hindi",
+    path: "Movie/movie1.avif"
   },
   {
-    name:"Madgaon Express",
-    movieCertificate:"UA",
-    language:"Hindi",
-    path:"Movie/movie2.avif"
+    name: "Madgaon Express",
+    movieCertificate: "UA",
+    language: "Hindi",
+    path: "Movie/movie2.avif"
   },
   {
-    name:"Article 370",
-    movieCertificate:"UA",
-    language:"Hindi",
-    path:"Movie/movie3.avif"
+    name: "Article 370",
+    movieCertificate: "UA",
+    language: "Hindi",
+    path: "Movie/movie3.avif"
   },
   {
-    name:"Yodha",
-    movieCertificate:"UA",
-    language:"Hindi",
-    path:"Movie/movie4.avif"
+    name: "Yodha",
+    movieCertificate: "UA",
+    language: "Hindi",
+    path: "Movie/movie4.avif"
   },
   {
-    name:"Imaginary",
-    movieCertificate:"A",
-    language:"English",
-    path:"Movie/movie5.avif"
+    name: "Imaginary",
+    movieCertificate: "A",
+    language: "English",
+    path: "Movie/movie5.avif"
   },
   {
-    name:"Bastar: The Naxal Story",
-    movieCertificate:"A",
-    language:"Hindi, Telugu",
-    path:"Movie/movie6.avif"
+    name: "Bastar: The Naxal Story",
+    movieCertificate: "A",
+    language: "Hindi, Telugu",
+    path: "Movie/movie6.avif"
   },
   {
-    name:"Chabak - Night of Murder and Romance ",
-    movieCertificate:"A",
-    language:"Korean",
-    path:"Movie/movie7.avif"
+    name: "Chabak - Night of Murder and Romance ",
+    movieCertificate: "A",
+    language: "Korean",
+    path: "Movie/movie7.avif"
   },
   {
-    name:"Teri Baaton Mein Aisa Uljha Jiya ",
-    movieCertificate:"UA",
-    language:"Hindi",
-    path:"Movie/movie8.avif"
+    name: "Teri Baaton Mein Aisa Uljha Jiya ",
+    movieCertificate: "UA",
+    language: "Hindi",
+    path: "Movie/movie8.avif"
   },
   {
-    name:"Ole Aale ",
-    movieCertificate:"UA",
-    language:"Marathi",
-    path:"Movie/movie9.avif"
+    name: "Ole Aale ",
+    movieCertificate: "UA",
+    language: "Marathi",
+    path: "Movie/movie9.avif"
   },
   {
-    name:"Morrya",
-    movieCertificate:"UA",
-    language:"Marathi",
-    path:"Movie/movie10.avif"
+    name: "Morrya",
+    movieCertificate: "UA",
+    language: "Marathi",
+    path: "Movie/movie10.avif"
   },
   {
-    name:"Trailers Screening Show",
-    movieCertificate:"UA",
-    language:"Multi Language",
-    path:"Movie/movie11.avif"
+    name: "Trailers Screening Show",
+    movieCertificate: "UA",
+    language: "Multi Language",
+    path: "Movie/movie11.avif"
   },
   {
-    name:"Dune: Part Two",
-    movieCertificate:"UA",
-    language:"English, Hindi",
-    path:"Movie/movie12.avif"
+    name: "Dune: Part Two",
+    movieCertificate: "UA",
+    language: "English, Hindi",
+    path: "Movie/movie12.avif"
   },
 ]
 export const Movies = () => {
@@ -111,11 +111,11 @@ export const Movies = () => {
       </Carousel>
       {/* filter and movies in regieon*/}
       <div className='container my-5'>
-        <div className='row'>
+        <div className='row position-relative'>
           {/* filter */}
-          <div className='col-12 col-md-3 ps-0 '>
+          <div className='col-12 col-md-3 ps-0 m_sticky'>
             <h4>Filters</h4>
-            {data.map((value, index) => {
+            {data.map((value) => {
               return <Filter key={value.title} buttons={value.buttons} title={value.title} />
             })}
             <Button btnType="outLine" title={'Browse by Cinema'} />
@@ -138,10 +138,10 @@ export const Movies = () => {
 
             {/* MyCard div started  */}
             <div className='row'>
-              {MoviesInfo.map(value=>
+              {MoviesInfo.map(value =>
                 <div className='col-12  col-sm-6 col-lg-4 col-xl-3 mt-3'>
-                  <MyCard {...value}/>
-              </div> 
+                  <MyCard {...value} />
+                </div>
               )}
             </div>
             {/* <div className='col-12  col-sm-6 col-lg-4 col-xl-3 mt-3'>

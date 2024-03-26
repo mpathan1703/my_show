@@ -1,0 +1,14 @@
+.m_plays_img_box{
+    height: 180px;
+    width:280px;
+}
+.m_plays_content{
+    margin-top: 100px;
+    margin-left: auto;
+    width: 280px;
+}
+.m_plays_img_box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
