@@ -71,20 +71,19 @@ export const Header = () => {
                                 </li>
                             </ul>
                         </div>
-
                         <div className='col-12 col-md-3 '>
                             <ul className='d-flex gap-3 justify-content-end'>
                                 <li>
-                                    <span>Listyourshow</span>
+                                    <NavLink to={"/list-your-shows"}><span>Listyourshow</span></NavLink>
                                 </li>
                                 <li>
-                                    <span>corporates</span>
+                                    <NavLink to={"/corporates"}><span>corporates</span></NavLink>
                                 </li>
                                 <li>
-                                    <span>offers</span>
+                                    <NavLink to={"/offers"}><span>offers</span></NavLink>
                                 </li>
                                 <li>
-                                    <span>Giftcards</span>
+                                    <NavLink to={"/Giftcards"}><span>Giftcards</span></NavLink>
                                 </li>
                             </ul>
                         </div>

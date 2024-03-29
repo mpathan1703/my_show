@@ -1,38 +1,37 @@
-.m_promoted{
+.m_promoted_banner_main{
     background-size: cover !important;
     width: 100%;
-    background-repeat: no-repeat !important;
+    background-repeat:no-repeat !important;
     background-position: center !important;
 }
-.m_promoted_Forground{
+.m_prooted_banner_forground{
     background: rgb(0, 0, 0);
     height: 100% !important;
     background: linear-gradient(95deg, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0.4) 100%);
 }
-.m_promoted_imgbox{
-    height: 100%px;
+.m_prooted_banner_forground .m_promoted_img_box{
+    height: 440px;
     width: 100%;
     padding: 15px;
 }
-.m_promoted_imgbox img{
+.m_prooted_banner_forground .m_promoted_img_box img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 15px;
 }
-.m_promoted_main_forground_content .m_discription{
-    line-height: 25px;
-}
-.m_promoted_main_forground_content .m_play_icon{
+.m_play_icon{
+    color: red;
     height: 20px;
     width: 20px;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-  color: red;
 }
-.m_promoted_main_forground_content .m_premier{
-    letter-spacing: 1px;
+.m_premier{
     font-weight: 400;
- }
+    letter-spacing: 1px;
+}
+.m_discription{
+    line-height: 25px;
+    font-weight: 400;
+}

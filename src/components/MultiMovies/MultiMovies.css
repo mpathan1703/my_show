@@ -1,15 +1,19 @@
-.m_carosole_img_box{
+.m_carousel_img_box{
     height: 360px;
     margin: 0 12px;
     padding: 2px;
 }
-.m_carosole_img_box img{
+.m_carousel_img_box img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 20px;
+border-radius: 10px;
 }
-/* .m_multi_movies_carsole .react-multiple-carousel__arrow--right{
+.m_multi_movies_carsole .react-multiple-carousel__arrow--right{
     right: calc(0% + 1px);
     background: rgb(134 134 134 / 80%) !important;
-} */
+}
+.m_multi_movies_carsole  .react-multiple-carousel__arrow--left{
+    left: calc(0% + 1px);
+    background: rgb(134 134 134 / 80%) !important;
+}

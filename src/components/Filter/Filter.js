@@ -27,7 +27,7 @@ export const Filter = ({ buttons, title }) => {
         </div>
         {open && <div className="mt-3 d-flex flex-wrap gap-2 ">
           {buttons.map((value) => {
-            return <Button key={value} titel={value} />
+            return <Button key={value} title={value} />
           })}
 
 

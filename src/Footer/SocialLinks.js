@@ -13,8 +13,8 @@ export const SocialLinks = () => {
     <section className='m_background'>
 <div className='m_border position-relative'> 
 <div className=' m_bottom_logo position-absolute d-flex justify-content-center mb-2 w-100'>
-  <div className='px-4 m_background'>
-    <img src="footer img.svg" alt="footer img" />
+  <div className='px-4 m_background m_footer_img'>
+    {/* <img src="bookmyshow.webp" alt="footerimg" /> */}
   </div>
 </div>
 </div>

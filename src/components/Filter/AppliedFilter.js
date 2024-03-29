@@ -6,7 +6,7 @@ export const AppliedFilter = ({ title, buttons }) => {
       <h4 className=' m_text_pinkish p-3'>{title}</h4>
       <div >
         {buttons.map((ele, index) => {
-          return <Button key={index} title={ele} isRounded={true} />
+          return <div className='m-1 d-inline-block'><Button key={index} title={ele} isRounded={true} /></div>
         })}
       </div>
     </div>

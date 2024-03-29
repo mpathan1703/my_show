@@ -46,3 +46,8 @@ padding: 15px 0px;
 .m_copyright{
     margin: 0;
 }
+.m_footer_img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
