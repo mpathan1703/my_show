@@ -74,7 +74,7 @@ export const Header = () => {
                         <div className='col-12 col-md-3 '>
                             <ul className='d-flex gap-3 justify-content-end'>
                                 <li>
-                                    <NavLink to={"/list-your-shows"}><span>Listyourshow</span></NavLink>
+                                    <NavLink to={"/Shows"}><span>Listyourshow</span></NavLink>
                                 </li>
                                 <li>
                                     <NavLink to={"/corporates"}><span>corporates</span></NavLink>

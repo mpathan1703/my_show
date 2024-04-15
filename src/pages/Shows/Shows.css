@@ -1,0 +1,81 @@
+.m_bannercard_img_box{
+    height: 250px;
+    width: 100%;
+}
+.m_bannercard_img_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flickity-button {
+    background-color: #8b8b87;
+}
+
+.m_show_wrapper {
+    margin: 40px 0px;
+    padding: 50px 0;
+}
+
+.m_shows_container {
+    width: 75%;
+}
+.m_show_card{
+    transition: transform 0.25s ease-in;
+    cursor: pointer;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 2px;
+    padding: 10px;
+    height: 100% !important;
+}
+.m_show_card:hover{
+    box-shadow: 0px 3px 2px 0px #00000085 !important;
+    transform: translateY(-5px);
+}
+
+.m_showcard_img_box{
+  height: 100px;
+  width: 100px;
+}
+.m_showcard_img_box img{
+    height: 100%;
+    width: 100%;
+}
+
+.m_testimonial{
+    margin-top: 100px;
+}
+.m_testimonial .m_testimonial_quote{
+    position: absolute;
+    top: -10px;
+    left: 22px;
+}
+.m_testimonial_img_box{
+    height: 100px;
+    width: 100px;
+
+}
+.m_testimonial_img_box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.b_testi_img{
+    height: 500px;
+    width: 100%;
+}
+.b_testi_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.m_security{
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    padding: 55px;
+    background-position: center !important;
+}

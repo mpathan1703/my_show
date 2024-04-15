@@ -67,8 +67,7 @@ export const Stream = () => {
           isShowAll="true"
           srcData={[
             "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",  
-            "Stream/MultiMovie/et00370047-hryqravrsg-portrait.avif" ,
-            "Stream/MultiMovie/et00391374-rhpevagccv-portrait.avif" ,
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
           ]} 
           />
       </div>

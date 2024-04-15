@@ -1,0 +1,200 @@
+ .m_offers_img_box{
+    height: 350px;
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+}
+.m_offers_img_box img{
+    height:100%;
+    width: 100%;
+
+    border-radius: 5px;
+}
+.m_search{
+    max-width: 250px;
+    border: 1px solid rgb(243, 237, 237);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.m_search input {
+    flex: 1;
+    border: none !important;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.m_search input::placeholder{
+    font-size: 12px !important;
+}
+.m_search_icon{
+    cursor: pointer;
+    width: 25px;
+    text-align: center;
+}
+.m_filters{
+    text-align: center;
+    width: 45%;
+}
+.m_filters h6{
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px ;
+    color: rgba(111, 111, 111);
+}
+    
+.m_card_Wrapper{
+    cursor: pointer;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.m_card_Wrapper small{
+    font-size: 12px !important;
+    margin-top: 10px;
+}
+.m_filters .m_cards{
+width: 55px;
+height: 60px;
+background: white;
+color: rgb(71,71,67);
+border: 1px solid rgb(241,234,234);
+border-radius: 6px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.m_filters .m_card_Wrapper:hover .m_cards{
+    background: #F84464;
+    color: white;
+}
+.m_filters .m_cards.active{
+    background: #F84464;
+    color: white;
+}
+.m_filters .m_small.active{
+    color: #F84464;
+}
+.m_filters .m_card_Wrapper:hover .m_small{
+    color: #F84464;
+}
+.m_card_offers{
+    width: 250px;
+}
+.m_offers .m_card_offers .m_top{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.m_offers .m_top .m_img_box{
+    height: 100%;
+    width: 100%;
+}
+.m_offers .m_top .m_img_box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius:5px ;
+    border-top-left-radius: 5px;
+}
+
+.m_card_offers .m_top .m_hover_content_overlay{
+    height: 100%;
+    background: rgb(24,23,23,0.685);
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    filter: blur(0.8px);
+    top:0;
+    display: none;
+
+}
+.m_card_offers .m_top .m_hover_content{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 0;
+    display: none;
+
+}
+.m_offers .m_card_offers{
+    cursor: pointer;
+}
+.m_offers .m_card_offers:hover .m_hover_content_overlay{
+    display: block !important;
+}
+.m_offers .m_card_offers:hover .m_img_box img{
+    filter: blur(1px)
+}
+.m_offers .m_card_offers:hover .m_hover_content{
+    display: block !important;
+}
+.m_card_offers .m_top .m_hover_content .m_icon{
+    height: 35px;
+    width: 35px;
+     display: flex !important; 
+     justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.m_card_offers .m_top .m_hover_content h6{
+    border-bottom: 1px solid white;
+}
+.m_card_offers .m_top .m_hover_content p{
+    width: 60%;
+    font-size: 15px;
+    margin: 30px auto;
+}
+.m_offers .m_bottom{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.m_offers .m_card_offers{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 3px rgba(71,71,71,0.129);
+}
+.m_filters .m_card_Wrapper:hover .m_cards{
+    background: #F84464;
+    color: white;
+}
+.m_card_offers .m_top .m_logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:220px;
+    left:15px;
+}
+.m_card_offers .m_top .m_logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.m_offers .m_bottom  h6{
+    font-weight: 400;
+    font-size: 13px;
+    margin: 20px 10px;
+}
+.m_offers .m_bottom .m_date_range{
+    font-weight: 300;
+    font-size: 15px;
+    margin: 20px 10px;
+    margin-top: 30px;
+} 
+
+/* mine */
+
+

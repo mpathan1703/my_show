@@ -1,7 +1,7 @@
 import React from 'react'
 import "./MultiMovies.css"
 import MultiCarousel from "react-multi-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { HiMiniChevronRight } from "react-icons/hi2";
 
 export const MultiMovies = ({ srcData = [], title, isShowAll = "false", path }) => {
@@ -34,11 +34,11 @@ export const MultiMovies = ({ srcData = [], title, isShowAll = "false", path }) 
         </div>}
       </div>
       <MultiCarousel responsive={responsive}>
-        {srcData.map(function (path, index) {
-          return <div key={index} className='m_carousel_img_box'>
-            <img src={path} alt="" />
-          </div>
-        })}
+      {srcData.map((path,index)=>{
+         return <div  key={index} className='m_carousel_img_box'>
+          <img src={`./MultiMovie/${path}`} alt="" />
+        </div>
+      })}
       </MultiCarousel>
     </div>
   )

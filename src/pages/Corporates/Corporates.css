@@ -1,0 +1,35 @@
+
+
+.m_card{
+    height: 350px;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.m_our_products .m_box{
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 50px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.m_bulk_booking{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  padding: 90px 50px;
+}
+.m_testimonial2 .m_testimonial2_img_box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.m_question .m_question_head{
+    letter-spacing: 2px;
+    font-weight: 400;
+}

@@ -101,3 +101,6 @@ font-size: 7px;
     height: max-content;
     top: 0;
 }
+.row{
+    margin: 0;
+}

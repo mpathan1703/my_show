@@ -1,0 +1,63 @@
+.m_gift_cards .m_btns button {
+    width: 220px;
+    height: 50px;
+    color: rgb(96, 93, 93)
+}
+
+.m_gift_cards .m_btns button .active {
+    background: white;
+}
+
+.m_gift_cards .m_e_gift .m_e_gift_btn {
+    border: 1px solid #5e5c5e;
+    background: none;
+    border-radius: 50px;
+    font-weight: 400;
+    padding: 5px 15px;
+    font-size: 12px;
+    color: rgb(42.42.42);
+    margin-top: 20px;
+}
+
+.m_gift_cards .m_e_gift_btn.active {
+    background: #f84464;
+    color: white;
+    border: 1px solid #f84464;
+}
+.m_e_gift .m_hover_content_box {
+    height: 185px;
+    border-radius: 10px;
+    border: 1px solid #cac7c7;
+    position: relative;
+}
+.m_e_gift .m_hover_content_box .m_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    /* display: none;  */
+    flex-direction: column;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+/* .m_e_gift .m_hover_content_box:hover{
+    display: flex;
+} */
+.m_e_gift .m_hover_content_box .m_content{
+    font-weight: 400;
+}
+.m_gm_e_giftift_cards .m_hover_content_box .m_img_box{
+    height: 100% !important;
+    width: 100%;
+    border-radius: 10px;
+}
+.m_e_gift .m_hover_content_box .m_img_box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit:cover;
+}
