@@ -1,14 +1,14 @@
 import React from 'react'
 import "./Offeres.css"
 import { CiSearch } from "react-icons/ci";
-// import OffersCard from './OffersCard';
+import OffersCard from './OffersCard';
 import { BsFillCreditCard2FrontFill } from "react-icons/bs";
 import { PiCreditCardFill } from "react-icons/pi";
 import { SiBookmyshow } from "react-icons/si";
 import { GiWallet } from "react-icons/gi";
 import { FaAward } from "react-icons/fa6";
 import { FaRupeeSign } from "react-icons/fa";
-// import offersCardData from "../../offersCardData"
+import { offersCardData } from '../../offersCardData';
 export const Offeres = () => {
     const data = [
         {
@@ -74,7 +74,7 @@ export const Offeres = () => {
             </div>
             <div className='d-flex flex-wrap container gap-3'>
                 <div className='m_offersCard_col'>
-                    {/* <OffersCard /> */}
+                    <OffersCard />
                 </div>
             </div>
         </section>

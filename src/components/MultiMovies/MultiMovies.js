@@ -1,7 +1,7 @@
 import React from 'react'
 import "./MultiMovies.css"
 import MultiCarousel from "react-multi-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-multi-carousel/lib/styles.css";
 import { HiMiniChevronRight } from "react-icons/hi2";
 
 export const MultiMovies = ({ srcData = [], title, isShowAll = "false", path }) => {
@@ -25,21 +25,38 @@ export const MultiMovies = ({ srcData = [], title, isShowAll = "false", path }) 
     }
   };
   return (
+    // <div className='m_multi_movies_carsole'>
+    //   <div className='mx-1 my-2 d-flex align-items-center justify-content-between'>
+    //     <h4 className='m_h19'>{title}</h4>
+    //     {isShowAll && <div className=' d-flex align-items-center m_text_pinkish '>
+    //       <span className='m_cursor_poiter'>See all</span>
+    //       <HiMiniChevronRight />
+    //     </div>}
+    //   </div>
+    //   <MultiCarousel responsive={responsive}>
+    //   {srcData.map((path,index)=>{
+    //      return <div  key={index} className='m_carousel_img_box'>
+    //       <img src={`./MultiMovie/${path}`} alt="" />
+    //     </div>
+    //   })}
+    //   </MultiCarousel>
+    // </div>
     <div className='m_multi_movies_carsole'>
-      <div className='mx-1 my-2 d-flex align-items-center justify-content-between'>
-        <h4 className='m_h19'>{title}</h4>
-        {isShowAll && <div className=' d-flex align-items-center m_text_pinkish '>
-          <span className='m_cursor_poiter'>See all</span>
-          <HiMiniChevronRight />
+    {(title || isShowAll) && <div className='d-flex justify-content-between align-items-center my-2 mx-1'>
+        <h4 className='b_h20'>{title}</h4>
+        {isShowAll && <div className='b_text_red_light_color d-flex align-items-center'>
+            <span className='m_cursor_poiter b_h14 '>See All</span>
+            {/* <MdOutlineChevronRight /> */}
         </div>}
-      </div>
-      <MultiCarousel responsive={responsive}>
-      {srcData.map((path,index)=>{
-         return <div  key={index} className='m_carousel_img_box'>
-          <img src={`./MultiMovie/${path}`} alt="" />
-        </div>
-      })}
-      </MultiCarousel>
-    </div>
+    </div>}
+    <MultiCarousel responsive={responsive}>
+        {srcData.map((path, index) => {
+            return <div key={index} className="m_carousel_img_box">
+                <img src={path} alt="" />
+            </div>
+        })}
+
+    </MultiCarousel>
+</div>
   )
 }

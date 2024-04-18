@@ -1,5 +1,5 @@
 .m_gift_cards .m_btns button {
-    width: 220px;
+    width: 185px;
     height: 50px;
     color: rgb(96, 93, 93)
 }
@@ -25,30 +25,10 @@
     border: 1px solid #f84464;
 }
 .m_e_gift .m_hover_content_box {
-    height: 185px;
+    height: 175px;
     border-radius: 10px;
     border: 1px solid #cac7c7;
     position: relative;
-}
-.m_e_gift .m_hover_content_box .m_content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    /* display: none;  */
-    flex-direction: column;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-}
-/* .m_e_gift .m_hover_content_box:hover{
-    display: flex;
-} */
-.m_e_gift .m_hover_content_box .m_content{
-    font-weight: 400;
 }
 .m_gm_e_giftift_cards .m_hover_content_box .m_img_box{
     height: 100% !important;
@@ -57,7 +37,30 @@
 }
 .m_e_gift .m_hover_content_box .m_img_box img{
     height: 100%;
-    width: 100%;
+    width: 100% !important;
     border-radius: 10px;
-    object-fit:cover;
+    object-fit:cover !important;
+}
+.m_e_gift .m_hover_content_box .m_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100% !important;
+    /* display: none;  */
+    flex-direction: column;
+    height: 220px !important;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+.m_e_gift .m_hover_content_box .m_content:hover{
+    display: flex ;
+}
+/* .m_e_gift .m_hover_content_box:hover{
+    display: flex;
+} */
+.m_e_gift .m_hover_content_box .m_content{
+    font-weight: 400;
 }

@@ -12,19 +12,19 @@ const Egift = () => {
                     return <button
                         onClick={() => setActive(ele)}
                         key={index}
-                        className={`m_e_gift_btn ${active===ele ?"active" :""}`}>
-                            {ele}
+                        className={`m_e_gift_btn ${active === ele ? "active" : ""}`}>
+                        {ele}
                     </button>
                 }))}
             </div>
-              <div className="row">
-                    <div className="col-12 col-md-3 mt-4">
-                        <div className="m_hover_content_box">
-                            <div className="m_img_box">
-                                <img src="GiftCard/gift_my_show_02402022094010_480x295.avif" alt="" />
-                            </div>
+            <div className="row">
+                <div className="col-12 col-md-4 mt-3">
+                    <div className="m_hover_content_box ">
+                        <div className="m_img_box">
+                            <img src="GiftCard/gift_my_show_02402022094010_480x295.avif" alt="" />
+                        </div>
 
-                            <div className="m_content">
+                        <div className="m_content">
                                 <table>
                                     <tbody>
                                         <tr style={{height:50}}>
@@ -62,9 +62,10 @@ const Egift = () => {
                                 </table>
                                 <button className='border-0 p-2 rounded-3  w-75 mx-auto m_bg_pinkish text-white'>Buy Now</button>
                             </div>
-                        </div>
                     </div>
                 </div>
+                
+            </div>
         </div>
     )
 }

@@ -67,6 +67,41 @@ export const Stream = () => {
           isShowAll="true"
           srcData={[
             "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",  
+            "Stream/MultiMovie/et00109952-cktkpbsmmf-portrait.avif",
+            "Stream/MultiMovie/et00322647-cbcrakrkwb-portrait.avif",
+            "Stream/MultiMovie/et00330062-afywqbrlrl-portrait.avif",
+            "Stream/MultiMovie/et00341317-ywpqqckawu-portrait.avif",
+            "Stream/MultiMovie/et00344265-mcnbkghxvr-portrait.avif",
+            "Stream/MultiMovie/et00391374-rhpevagccv-portrait.avif",
+            "Stream/MultiMovie/et00386326-geatkxcgfb-portrait.avif",
+            "Stream/MultiMovie/et00383986-lkquujymaj-portrait.avif",
+          ]} 
+          />
+           <MultiMovies title={"New on Stream"}
+          isShowAll="true"
+          srcData={[
+            "Stream/MultiMovie/et00379741-ewusryhcjb-portrait.avif",  
+            "Stream/MultiMovie/et00390188-nfctyrtfqe-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+          ]} 
+          />
+           <MultiMovies title={"New on Stream"}
+          isShowAll="true"
+          srcData={[
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",  
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
             "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
           ]} 
           />
