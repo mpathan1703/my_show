@@ -42,21 +42,21 @@ export const MultiMovies = ({ srcData = [], title, isShowAll = "false", path }) 
     //   </MultiCarousel>
     // </div>
     <div className='m_multi_movies_carsole'>
-    {(title || isShowAll) && <div className='d-flex justify-content-between align-items-center my-2 mx-1'>
+      {(title || isShowAll) && <div className='d-flex justify-content-between align-items-center my-2 mx-1'>
         <h4 className='b_h20'>{title}</h4>
         {isShowAll && <div className='b_text_red_light_color d-flex align-items-center'>
-            <span className='m_cursor_poiter b_h14 '>See All</span>
-            {/* <MdOutlineChevronRight /> */}
+          <span className='m_cursor_poiter b_h14 '>See All</span>
+          <HiMiniChevronRight />
         </div>}
-    </div>}
-    <MultiCarousel responsive={responsive}>
+      </div>}
+      <MultiCarousel responsive={responsive}>
         {srcData.map((path, index) => {
-            return <div key={index} className="m_carousel_img_box">
-                <img src={path} alt="" />
-            </div>
+          return <div key={index} className="m_carousel_img_box">
+            <img src={path} alt="" />
+          </div>
         })}
 
-    </MultiCarousel>
-</div>
+      </MultiCarousel>
+    </div>
   )
 }

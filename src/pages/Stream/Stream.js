@@ -69,40 +69,49 @@ export const Stream = () => {
             "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",  
             "Stream/MultiMovie/et00109952-cktkpbsmmf-portrait.avif",
             "Stream/MultiMovie/et00322647-cbcrakrkwb-portrait.avif",
-            "Stream/MultiMovie/et00330062-afywqbrlrl-portrait.avif",
+            "Stream/MultiMovie/26.avif",
+            "Stream/MultiMovie/25.avif",  
+            "Stream/MultiMovie/24.avif",
+            "Stream/MultiMovie/et00322647-cbcrakrkwb-portrait.avif",
             "Stream/MultiMovie/et00341317-ywpqqckawu-portrait.avif",
             "Stream/MultiMovie/et00344265-mcnbkghxvr-portrait.avif",
             "Stream/MultiMovie/et00391374-rhpevagccv-portrait.avif",
             "Stream/MultiMovie/et00386326-geatkxcgfb-portrait.avif",
             "Stream/MultiMovie/et00383986-lkquujymaj-portrait.avif",
+            "Stream/MultiMovie/et00355125-bgvpfzkpsm-portrait.avif",
+            "Stream/MultiMovie/et00369204-mxbllxxejm-portrait.avif",
           ]} 
           />
-           <MultiMovies title={"New on Stream"}
+           <MultiMovies title={"preimier  of the week"}
           isShowAll="true"
           srcData={[
+            "Stream/MultiMovie/et00135461-pqqyrdnwme-portrait.avif",
+            "Stream/MultiMovie/et00135711-mnyvsrjgvq-portrait.avif",
             "Stream/MultiMovie/et00379741-ewusryhcjb-portrait.avif",  
             "Stream/MultiMovie/et00390188-nfctyrtfqe-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/et00390766-vfpcubpgnc-portrait.avif",
+            "Stream/MultiMovie/et00392620-wtnurevnae-portrait.avif",
+            "Stream/MultiMovie/et00394414-eqxkpzfpvn-portrait.avif",
+            "Stream/MultiMovie/et00395030-fbccpteklx-portrait.avif",
+            "Stream/MultiMovie/et00324344-uaavxwlcxx-portrait.avif",
+            "Stream/MultiMovie/et00355125-bgvpfzkpsm-portrait.avif",
+            "Stream/MultiMovie/et00369204-mxbllxxejm-portrait.avif",
+ 
           ]} 
           />
-           <MultiMovies title={"New on Stream"}
+           <MultiMovies title={"Top 10 TV Shows"}
           isShowAll="true"
           srcData={[
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",  
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
-            "Stream/MultiMovie/et00027332-qdlvmpbsmg-portrait.avif",
+            "Stream/MultiMovie/41.avif",
+            "Stream/MultiMovie/42.avif",
+            "Stream/MultiMovie/43.avif",
+            "Stream/MultiMovie/44.avif",
+            "Stream/MultiMovie/45.avif",
+            "Stream/MultiMovie/46.avif",
+            "Stream/MultiMovie/47.avif",
+            "Stream/MultiMovie/48.avif",
+            "Stream/MultiMovie/49.avif",
+            "Stream/MultiMovie/50.avif",
           ]} 
           />
       </div>

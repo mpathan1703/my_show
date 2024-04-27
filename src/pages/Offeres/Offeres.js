@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Offeres.css"
 import { CiSearch } from "react-icons/ci";
 import OffersCard from './OffersCard';
@@ -10,6 +10,9 @@ import { FaAward } from "react-icons/fa6";
 import { FaRupeeSign } from "react-icons/fa";
 import { offersCardData } from '../../offersCardData';
 export const Offeres = () => {
+    const [activeFilters, setActiveFilters] = useState(["creditCard", "debitCard", "bookMyShow", "wallet", "rewards", "payLater"])
+    const [SearchValue, setSearchValue] = useState("")
+    const [CardData, setCardData] = useState(offersCardData)
     const data = [
         {
             icon: <BsFillCreditCard2FrontFill size={30} />,
@@ -44,6 +47,34 @@ export const Offeres = () => {
         },
 
     ]
+    // creating a function 
+    function FiltersHandler(cardType) {
+        if (activeFilters.includes(cardType)) {
+            const newData = activeFilters.filter((ele) => {
+                return ele !== cardType
+            })
+            setActiveFilters(newData)
+        }
+        else {
+            setActiveFilters([...activeFilters, cardType])
+        }
+    }
+
+    // creating a  function this function will be returned the event object
+    function inputHandler (event ){
+        setSearchValue(event.target.value)
+    } 
+
+    useEffect(()=>{
+        const searchTime = setTimeout(()=>{
+            const newdata = offersCardData.filter(({ title})=>{
+                return title.toLocaleLowerCase().includes(SearchValue.toLocaleLowerCase())
+            })
+            setCardData(newdata)
+        },
+    1000)
+    return ()=> clearTimeout(searchTime)
+    },[SearchValue])
     return (
         <section className='m_offers'>
             <div className='bg-white py-3'>
@@ -52,8 +83,12 @@ export const Offeres = () => {
                 </div>
                 <div className='container'>
                     <div className='m_search my-3'>
-                        <input type="text"
-                            placeholder='search for offers for bank or name ' />
+                      <input 
+                            onChange={inputHandler}
+                            value={SearchValue}
+                            type="text"
+                            placeholder="Search for Offers by Name or Bank"
+                        />
                         <div className='m_search_icon'>
                             <CiSearch />
                         </div>
@@ -63,9 +98,9 @@ export const Offeres = () => {
                         <h6>FILTER OFFERES BY</h6>
                         <div className='d-flex justify-content-betwen mt-2'>
                             {data.map(({ icon, title, cardType }, index) => {
-                                return <div key={index} className='m_card_Wrapper'>
-                                    <div className='m_cards'>{icon}</div>
-                                    <small className='m_small'>{title} </small>
+                                return <div onClick={() => FiltersHandler(cardType)} key={index} className='m_card_Wrapper'>
+                                    <div className={`m_cards`}>{icon}</div>
+                                    <small className="m_small"> </small>
                                 </div>
                             })}
                         </div>
@@ -73,9 +108,17 @@ export const Offeres = () => {
                 </div>
             </div>
             <div className='d-flex flex-wrap container gap-3'>
-                <div className='m_offersCard_col'>
-                    <OffersCard />
-                </div>
+            {CardData?.map((ele,index)=>{
+                       if (activeFilters.includes(ele.cardType)) {
+                        return   <div className='m_offersCard_col'>
+                            <OffersCard {...ele}/>
+                        </div>
+                       }
+                       else {
+                        return null
+                       }
+                    })}
+              
             </div>
         </section>
     )

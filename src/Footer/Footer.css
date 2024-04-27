@@ -24,6 +24,20 @@
 /* .m_icon_cont{
     margin: auto;
 } */
+
+.b_bookmyshow_border {
+    border-top: 1px solid #868686;
+    width: 96%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.b_bottom_logo {
+    top: -26px !important;
+}
+.b_bottom_logo img{
+    height: 50px;
+    width: 120px;
+}
 .m_icons{
     height: 35px;
     width: 35px;
@@ -46,8 +60,15 @@ padding: 15px 0px;
 .m_copyright{
     margin: 0;
 }
+.m_bottom_logo{
+position:absolute
+}
 .m_footer_img{
-    height: 50px;
-    width: 50px;
-    margin: auto;
+    height: 70px;
+    width: 70px;
+}
+.m_footer_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }

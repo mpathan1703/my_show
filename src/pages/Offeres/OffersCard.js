@@ -2,7 +2,8 @@ import React from 'react'
 import { LiaLaptopSolid } from "react-icons/lia";
 import { CiMobile1 } from "react-icons/ci";
 
-const OffersCard = ({backgroundImgUrl,logoUrl,description,cardType,title,date}) => {
+const OffersCard = ({ backgroundImgUrl, logoUrl, description, title, date }) => {
+    console.log(title,)
     return (
         <div className='bg-white m_card_offers my-3 border'>
             <div className="m_top">
@@ -37,7 +38,7 @@ const OffersCard = ({backgroundImgUrl,logoUrl,description,cardType,title,date}) 
             </div>
             {/* bottom section  */}
             <div className="m_bottom bg-white p-2" >
-                <h6>{title}</h6>
+                <h6>{title?.length > 26 ?`${title?.toUpperCase()?.slice(0,26)}...`: title?.toUpperCase()}</h6>
                 <div className='m_date_range'>
                     <span>Valid till <span>{date}</span></span>
                 </div>

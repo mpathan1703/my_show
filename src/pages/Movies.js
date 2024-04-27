@@ -91,7 +91,7 @@ export const Movies = () => {
     },
     {
       title: "Generes",
-      buttons: ["Hindi", "Marathi", "vnbn"]
+      buttons: ["Hindi", "Marathi"]
     },
     {
       title: "Format",
